@@ -1,0 +1,24 @@
+[background arg="res://Visual Novel Backgrounds (Starter Pack 2)/apartment b living room day.png" fade="0.0"]
+Flinn: *Menguap*\
+Woaahh..
+Flinn: *Melihat jam*\
+Udah jam 8..
+join Flinn (normal-left) center
+Flinn: *Beranjak dari tempat tidur*
+Tok tok tok tok\
+*Seorang mengetuk pintu kamar Flinn*
+Flinn (mesem-right): Hmm..? Siapa?
+Yuna: Ini aku~
+*Dari balik pintu terdengar suara lembut ciri khas Yuna*
+update Flinn left [animation="Shake X" move_time="0.4"]
+Flinn: *membuka pintu kamar*
+join Yuna (normal-left) right
+Yuna (normal-left): Pagi tukang tidur~
+- Pagi~
+	Flinn: Pagi Yuna~ Tumben ke sini, ada perlu apa?
+	Yuna (normal-left): Aku butuh bantuan, bisa bantuin aku ngga?
+	Flinn (mesem-right): Bantuan?
+	- Apa yang perlu dibantu?
+	- Ngga bisa, sibuk
+- Ngapain ke kamarku?
+	Flinn (mangap-sithik-right): Masih pagi ngapain ke kamarku?

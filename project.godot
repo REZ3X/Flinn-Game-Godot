@@ -20,8 +20,13 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
-directories/dtl_directory={}
+directories/dch_directory={
+"Flinn": "res://games/characters/Flinn.dch",
+"Yuna": "res://games/characters/Yuna.dch"
+}
+directories/dtl_directory={
+"day_0-prologue": "res://games/days/day_0-prologue.dtl"
+}
 
 [editor]
 
